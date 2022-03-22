@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <base href="N:\basiccss\" target="_blank">
+    <link rel="icon" href="imagees\favicon.png" type="image/x-icon" sizes="16*16">
+    <link rel="stylesheet" href="css\register.css">
+    <title>register for login</title>
+</head>
+<body>
+    <header>
+        <h2>SouL FeeD Register.</h2>
+        <p>These are basic fields to register for the soul feed to login and share your thoughts.</p>
+    </header>
+    <hr>
+    <form id="r22" action=" " >
+        <div class="container">
+        <p>Enter the required details</p>
+        <label for="Email" name="usermail" > Email id * :     </label>
+        <input type="text" name="usermail" id="f01" placeholder="mailid@domainname.com" required><br>
+        <label for="firstname" name="firstname">FirstName:</label>
+        <input type="text" name="firstname" id="f02" value="firstname" required><br>
+        <label for="lastname" name="lastname">LastName :</label>
+        <input type="text" name="lastname" id="f03" value="lastname" optional><br>
+        <label for="username" name="username">Username :</label>
+        <input type="text" name="username" id="f04" value="Username"  minlength="12" required><br>
+        <label for="passwod" name="password">Password :</label>
+        <input type="password" name="password" id="f05" value="password" minlength="4" maxlength="8" required><br>
+        <input type="checkbox" name="agreeterms" id="f06"> <label>I am agreeing to all the terms and condtition of website.</label><br>
+        <button type="button" class="register" onclick="adduser()" autofocus>Register</button>
+    </div>
+    </form>
+    <p id="t1"></p>
+    <p id="t2"></p>
+    <p id="otp"></p>
+    <p>Already a user <a href="html\vone.html">Signin here</a></p>
+    <script src="N:\basiccss\jsfiles\login.js"></script>
+</body>
+</html>

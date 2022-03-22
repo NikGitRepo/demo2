@@ -1,0 +1,7 @@
+body   {background-image: url("N:/basiccss/imagees/altbg.jpg");
+        text-align: center;background-size: cover;
+        background-position: center;background-repeat: none;
+        height: 100%;font-family: Georgia, 'Times New Roman', Times, serif;}
+img    {border: 2px solid grey;}
+h1     {color: white;}
+h4     {color:blue;font-style: oblique;}

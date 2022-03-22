@@ -1,0 +1,9 @@
+.fcontain   { border: none;padding-left:10px;padding-top: 10px;}
+.fchild     { width: 50%; float: left;color: palegreen;}
+.navbar     { background-color: rgb(240, 145, 111);padding: 4px 0 4px 0;border:1px thick black;overflow: hidden;}
+.navbar a   { color:honeydew;background-color: orange;text-align: center;padding: 12px 10px;
+                text-decoration:underline;font-size: 20px;float: left;}
+.navbar a:hover{background-color: seagreen;}
+.navbar a:active{background-color: red;}
+body{background-color:rgb(106, 160, 129);}
+hr{ color:black}
